@@ -4,4 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請輸入文字"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/txvshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="讀出的檔案內容"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <Button
+        android:id="@+id/btnread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <EditText
+        android:id="@+id/edtInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="請輸入在此"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="56dp" />
+</android.support.constraint.ConstraintLayout>
